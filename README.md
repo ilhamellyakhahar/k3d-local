@@ -89,6 +89,9 @@ Initial Root Token: hvs.fLVtEZ4pscvuqFKX0hbx2cSC
 **Important:** Vault must be unsealed and configured after cluster restart:
 
 ```bash
+# Set root token as environment variable
+export VAULT_TOKEN=hvs.fLVtEZ4pscvuqFKX0hbx2cSC
+
 # Configure Kubernetes auth method
 vault write auth/kubernetes/config \
   token_reviewer_jwt="$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
@@ -96,7 +99,7 @@ vault write auth/kubernetes/config \
   kubernetes_ca_cert=@/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
 ```
 
-### ArgoCD (GitOps)
+### ArgoCD
 ```bash
 # Port forward to access
 kubectl port-forward svc/argocd-server -n argocd 8000:80
