@@ -86,7 +86,7 @@ Initial Root Token: hvs.fLVtEZ4pscvuqFKX0hbx2cSC
 ```
 
 #### Post-Restart Configuration
-⚠️ **Important:** Vault must be unsealed and configured after cluster restart:
+**Important:** Vault must be unsealed and configured after cluster restart:
 
 ```bash
 # Configure Kubernetes auth method
