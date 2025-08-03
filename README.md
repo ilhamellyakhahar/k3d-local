@@ -1,4 +1,4 @@
-# k3d-local
+# K3d Local
 
 A local Kubernetes development environment using k3d with pre-configured services for development and testing.
 
@@ -104,29 +104,6 @@ kubectl port-forward svc/argocd-server -n argocd 8000:80
 - **URL:** http://localhost:8000
 - **Username:** `admin`
 - **Password:** `amNtPa5SPtydi8zy`
-
-## Useful Commands
-
-```bash
-# Create port-forward alias for convenience
-alias kpf="kubectl port-forward"
-
-# Check all pods status
-kubectl get pods --all-namespaces
-
-# View cluster info
-kubectl cluster-info
-
-# Check k3d clusters
-k3d cluster list
-```
-
-## Prerequisites
-
-- Docker installed and running
-- k3d installed
-- kubectl installed
-- Basic understanding of Kubernetes concepts
 
 ## Troubleshooting
 
