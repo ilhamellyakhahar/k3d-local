@@ -26,8 +26,6 @@ k3d cluster stop mycluster
 | **Vault** | Secret management | Secure credential storage |
 | **Reloader** | Restart automation | Auto-restart on config changes |
 
-**Manifest Repository:** https://github.com/ilhamellyakhahar/k3d-local.git
-
 ## Service Access & Credentials
 
 ### Todo Application
