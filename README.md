@@ -134,12 +134,3 @@ k3d cluster list
 1. **Vault sealed after restart:** Use the unseal keys provided above
 2. **Port conflicts:** Ensure no other services are using the specified ports
 3. **Cluster won't start:** Check Docker is running and ports are available
-
-### Logs
-```bash
-# Check pod logs
-kubectl logs <pod-name> -n <namespace>
-
-# Follow logs
-kubectl logs -f <pod-name> -n <namespace>
-```
