@@ -75,16 +75,16 @@ kubectl port-forward svc/hashicorp-vault-ui -n vault 8200:8200
 
 #### Vault Unseal Keys
 ```
-- CbwR1oMtmSZkWRXpmo1NsUtfISJy1aJXV+2Iksz5x+3v
-- NP7DpyqcIwucsxKt4qeGEZWh1OMn2hh2LUcEnqHvKP5F
-- bz1ScZHW+uMYiyWDwdJfeevqEpfGfsg0xbOJmWto+7fe
-- 4whT+mTJDjCdBJqmd6+ZEDh6ag/1EkYWa1wMpsMSqslE
-- 87HNJaodYVbJjRAOme6MjzG4bqkvN4ONxMe0kA9jP0Xn
+Unseal Key 1: CbwR1oMtmSZkWRXpmo1NsUtfISJy1aJXV+2Iksz5x+3v
+Unseal Key 2: NP7DpyqcIwucsxKt4qeGEZWh1OMn2hh2LUcEnqHvKP5F
+Unseal Key 3: bz1ScZHW+uMYiyWDwdJfeevqEpfGfsg0xbOJmWto+7fe
+Unseal Key 4: 4whT+mTJDjCdBJqmd6+ZEDh6ag/1EkYWa1wMpsMSqslE
+Unseal Key 5: 87HNJaodYVbJjRAOme6MjzG4bqkvN4ONxMe0kA9jP0Xn
 ```
 
 #### Root Token
 ```
-hvs.fLVtEZ4pscvuqFKX0hbx2cSC
+Initial Root Token: hvs.fLVtEZ4pscvuqFKX0hbx2cSC
 ```
 
 #### Post-Restart Configuration
